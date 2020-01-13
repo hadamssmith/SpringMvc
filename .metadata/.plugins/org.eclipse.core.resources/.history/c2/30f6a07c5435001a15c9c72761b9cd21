@@ -1,0 +1,15 @@
+/**
+ * 
+ */
+package com.springDemo1.dao;
+
+import com.springDemo1_data.entities.Employee;
+
+/**
+ * @author user
+ *
+ */
+public interface EmployeeDao {
+
+	public void addEmployee(Employee employee);
+}

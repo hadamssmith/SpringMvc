@@ -1,0 +1,21 @@
+/**
+ * 
+ */
+package com.springDemo1.employee.service;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+/**
+ * @author user
+ *
+ */
+public class EmployeeServiceImplTest {
+
+	@Test
+	public void test() {
+		fail("Not yet implemented");
+	}
+
+}

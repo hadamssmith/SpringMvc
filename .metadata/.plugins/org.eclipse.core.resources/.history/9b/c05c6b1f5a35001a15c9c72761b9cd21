@@ -1,0 +1,33 @@
+/**
+ * 
+ */
+package com.springDemo1.employee.service;
+
+import static org.junit.Assert.*;
+
+import org.junit.Before;
+import org.junit.Test;
+import org.mockito.Mock;
+
+import com.springdemo.employee.service.EmployeeService;
+
+/**
+ * @author user
+ *
+ */
+public class EmployeeServiceImplTest {
+
+	@Mock
+	private EmployeeService employeeService;
+	
+	@Before
+	public void setUp() throws Exception {
+		
+		employeeService = mock(EmployeeService.class);
+	}
+
+	@Test
+	public void employeeExitsTest() {
+		assertNotNull(EmployeeService.class);
+	}
+}

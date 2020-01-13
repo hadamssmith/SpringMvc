@@ -1,0 +1,5 @@
+package com.springdemo.employee.service;
+
+public interface EmployeeService {
+
+}

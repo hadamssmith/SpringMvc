@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package com.springdemo.employee.service;
+
+/**
+ * @author user
+ *
+ */
+public class EmployeeServiceImpl {
+
+}

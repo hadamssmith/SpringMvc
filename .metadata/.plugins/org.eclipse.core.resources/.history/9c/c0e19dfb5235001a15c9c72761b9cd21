@@ -1,0 +1,39 @@
+/**
+ * 
+ */
+package com.springDemo_data.entities;
+
+import static org.junit.Assert.*;
+
+import java.util.logging.Logger;
+
+import org.junit.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.mchange.v2.c3p0.ComboPooledDataSource;
+import com.springDemo1_data.dao.EmployeeDao;
+import com.springDemo1_data.db.DbConnectionManagerTest;
+
+/**
+ * @author user
+ *
+ */
+public class EmployeeDaoImplTest {
+
+	private Logger logger = Logger.getLogger(DbConnectionManagerTest.class.getName());
+
+	
+	@Autowired
+	private EmployeeDao employeeDaoImpl;
+	
+	@Autowired
+	private ComboPooledDataSource dataSource;
+	
+	
+	@Test
+	public void dbManagerClassesInitializedTest() {
+		
+		assertNotNull(employeeDaoImpl);
+		assertNotNull(dataSource);
+	}
+}

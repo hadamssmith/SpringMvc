@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package com.springDemo1_data.dao;
+
+/**
+ * @author Omotolani
+ *
+ */
+public class EmployeeDaoImpl {
+
+}

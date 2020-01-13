@@ -1,0 +1,16 @@
+package springDemo1_data;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class DbConnectionManagerTest {
+
+	@Test
+	public void dataSourceInitializedTest() {
+		
+		assertNotNull(dataSource);
+	}
+
+
+}
